@@ -1,0 +1,21 @@
+baseURL = 'https://jamesprichardson'
+languageCode = 'en-us'
+title = 'james p richardson'
+theme = 'maverick'
+
+[params]
+  items = 10
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/project/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"

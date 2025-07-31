@@ -5,6 +5,7 @@ theme = 'maverick'
 
 [params]
   items = 10
+  googleAnalytics = "G-4VBNDWPC3D"
 
 [menu]
   [[menu.main]]

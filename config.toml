@@ -4,7 +4,9 @@ title = 'James P Richardson'
 theme = 'maverick'
 
 [permalinks]
-  pages = "/:slug"
+  pages = "/:slug/"
+  posts = "/:slug/"
+  
 
 [params]
   logo = '/assets/favicon.ico'

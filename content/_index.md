@@ -1,13 +1,54 @@
-## Hi there! 👋
+---
+layout: default
+title: James Richardson – Fractional CTO & Technology Advisor
+---
 
-<img class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Pale" alt="avatar">
+# James Richardson  
+### Fractional CTO | Cloud + IoT + Energy Systems
 
-Hi! I’m James—a product-minded technologist with 15+ years of experience across cloud architecture, IoT, and technical product leadership.
+I help climate and energy startups turn technical complexity into business outcomes.
 
-I’ve led teams and shipped products at Amazon, AWS, and Microsoft. Today, I help startups and growing companies as the founder of Off Trail Labs, where I bring clarity to complex technical challenges and guide teams from scrappy V1s to scalable, production-ready platforms.
+With 15+ years at the intersection of cloud, connected devices, and real-world systems, I bring hands-on technical leadership to early-stage and scaling teams. Whether you're navigating IoT, cloud architecture, or embedded systems, I help align your technology with your goals — without overengineering.
 
-I’m especially excited about technology that bridges the digital and physical worlds—whether it’s sensors, edge devices, or intelligent systems—and how it can solve real-world problems with measurable impact.
+---
 
-Find me on: LinkedIn, GitHub.
+## How I Can Help
 
-Looking to collaborate, hire a Fractional CTO, or just connect? Reach out or find me on LinkedIn—I’d love to chat.
+- ✅ Fractional CTO for early-stage startups  
+- 🧭 Technical strategy & roadmap reviews  
+- ⚙️ Cloud + Edge architecture (AWS, IoT, energy systems)  
+- 🧪 Prototyping, proof-of-concept validation  
+- 📊 Data pipeline and energy savings modeling
+
+---
+
+## Selected Writing
+
+- [Building Tech That Reflects Reality, Not Just Code](/posts/tech-meets-reality)
+- [Simplifying Energy IoT Architecture for Startups](/posts/iot-architecture)
+- [Why Most Smart Hardware MVPs Fail](/posts/hardware-mvp-pitfalls)
+
+*More posts coming soon.*
+
+---
+
+## About Me
+
+I'm a hands-on architect and strategic advisor who works closely with founders and technical teams to move fast without breaking what matters.
+
+Previously:  
+- Fractional CTO at an energy IoT startup  
+- Solution architect for cloud-connected hardware  
+- Early AWS developer before it was cool  
+
+When I'm not building, I’m in the mountains or chasing my toddler around Suncadia.
+
+---
+
+## Let's Talk
+
+Have a technical problem you want to untangle? I offer short advisory calls and longer-term engagements.
+
+📬 [Email me](mailto:hello@jamesprichardson.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jamesprichardson)
+

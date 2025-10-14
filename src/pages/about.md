@@ -3,35 +3,26 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+I've always been obsessed with making dumb things smart.
 
-![Astro Paper](public/astropaper-og.jpg)
+As a kid, I was fascinated by street lights that somehow "knew" when 
+it got dark. That simple magic—technology solving a real problem 
+without anyone thinking about it—stuck with me.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Fast forward to 2025, and most things are still frustratingly dumb. 
+Your outside faucet will leak for weeks underground without notification. 
+Your air conditioner breaks down silently until it stops removing heat. 
+Your equipment fails predictably, but you only find out after it's too late.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+There's incredible technology available today—IoT, cloud computing, AI, 
+edge ML—but it's just tools. Tools don't solve problems by themselves. 
+Someone has to actually build the applications, connect the sensors, 
+write the code, and make it work in production.
 
-## Features
+That's where I operate: where the rubber meets the road.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+I'm not interested in tech for tech's sake. I build practical systems 
+that solve real problems and make life slightly better. Whether that's 
+scaling a clean-tech startup to 10,000 devices, preventing industrial 
+downtime with predictive maintenance, or automating manual operations 
+with computer vision—I focus on tangible impact.

@@ -1,0 +1,152 @@
+---
+// src/pages/work/cleantech-iot-scaling.astro
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Hr from "@/components/Hr.astro";
+---
+
+<Layout title="Scaling Clean-Tech IoT from MVP to 10k+ Devices | James">
+  <Header />
+  <main id="main-content" class="pt-8">
+    
+    <!-- Hero -->
+    <section class="pb-8">
+      <a href="/work" class="text-sm text-blue-600 hover:underline mb-4 inline-block">
+        ← Back to Work
+      </a>
+      <h1 class="text-3xl font-bold sm:text-4xl mb-4">
+        Scaling Clean-Tech IoT from MVP to 10k+ Devices
+      </h1>
+      <div class="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400">
+        <span>🏢 Clean-tech Startup (Anonymized)</span>
+        <span>📅 2022-2024</span>
+        <span>🎯 Fractional CTO</span>
+      </div>
+    </section>
+
+    <Hr />
+
+    <!-- The Challenge -->
+    <section class="py-8">
+      <h2 class="text-2xl font-bold mb-4">The Challenge</h2>
+      <p class="mb-4">
+        A clean-tech startup had successfully validated product-market fit with 
+        100 devices in the field, but their MVP architecture was showing cracks:
+      </p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+        <li>Device failures required manual intervention</li>
+        <li>Cloud infrastructure couldn't handle growth</li>
+        <li>No monitoring or alerting system</li>
+        <li>Team had hardware expertise but lacked cloud/IoT experience</li>
+      </ul>
+      <p class="mt-4">
+        They needed to scale to 10,000+ devices to meet customer demand and raise 
+        their Series A, but the technical foundation wasn't ready.
+      </p>
+    </section>
+
+    <Hr />
+
+    <!-- The Solution -->
+    <section class="py-8">
+      <h2 class="text-2xl font-bold mb-4">The Solution</h2>
+      
+      <h3 class="text-xl font-semibold mb-3 mt-6">1. Infrastructure Redesign</h3>
+      <p class="mb-4">
+        Migrated from a monolithic architecture to a scalable IoT platform:
+      </p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+        <li>AWS IoT Core for device management and communication</li>
+        <li>TimescaleDB for time-series sensor data</li>
+        <li>Event-driven architecture using Lambda + SQS</li>
+        <li>Infrastructure-as-code with Terraform</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mb-3">2. Operational Excellence</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+        <li>CloudWatch dashboards for real-time monitoring</li>
+        <li>PagerDuty integration for alerting</li>
+        <li>Automated device provisioning and OTA updates</li>
+        <li>CI/CD pipeline for firmware and cloud deployments</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mb-3">3. Team Building</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+        <li>Hired 3 cloud engineers</li>
+        <li>Established code review and testing practices</li>
+        <li>Weekly architecture review sessions</li>
+        <li>Documentation system for tribal knowledge</li>
+      </ul>
+    </section>
+
+    <Hr />
+
+    <!-- The Results -->
+    <section class="py-8">
+      <h2 class="text-2xl font-bold mb-4">The Results</h2>
+      
+      <div class="grid gap-6 sm:grid-cols-3 mb-6">
+        <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 text-center">
+          <div class="text-3xl font-bold text-blue-600 mb-2">10,000+</div>
+          <div class="text-sm text-gray-600 dark:text-gray-400">Devices in Production</div>
+        </div>
+        <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 text-center">
+          <div class="text-3xl font-bold text-blue-600 mb-2">99.9%</div>
+          <div class="text-sm text-gray-600 dark:text-gray-400">Uptime Achieved</div>
+        </div>
+        <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-6 text-center">
+          <div class="text-3xl font-bold text-blue-600 mb-2">6 months</div>
+          <div class="text-sm text-gray-600 dark:text-gray-400">Time to Scale</div>
+        </div>
+      </div>
+
+      <p class="mb-4">
+        The company successfully raised their Series A with a technically sound 
+        platform that could scale to 100k+ devices. Manual interventions dropped 
+        from daily to less than once per week.
+      </p>
+
+      <p>
+        The engineering team grew from 2 to 8 people, with clear processes and 
+        ownership models that allowed them to move fast without breaking things.
+      </p>
+    </section>
+
+    <Hr />
+
+    <!-- Tech Stack -->
+    <section class="py-8">
+      <h2 class="text-2xl font-bold mb-4">Technologies Used</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">AWS IoT Core</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">TimescaleDB</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">Terraform</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">Lambda</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">SQS</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">CloudWatch</span>
+        <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-medium">GitHub Actions</span>
+      </div>
+    </section>
+
+    <Hr />
+
+    <!-- CTA -->
+    <section class="py-12 text-center">
+      <h2 class="text-2xl font-bold mb-4">Need Help Scaling Your IoT Product?</h2>
+      <p class="mb-6 max-w-xl mx-auto text-gray-600 dark:text-gray-400">
+        Whether you're at 10 devices or 1,000, I can help you build the foundation 
+        to scale reliably.
+      </p>
+      <a 
+        href="https://calendly.com/yourlink"
+        class="inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
+      >
+        Schedule a Free Call
+      </a>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

@@ -23,212 +23,23 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 <Layout>
   <Header />
   <main id="main-content" data-layout="index">
-    <!-- HERO SECTION -->
-    <section id="hero" class="pt-2 pb-6">
-      <h1 class="my-4 text-2xl font-bold sm:my-8 sm:text-3xl">
-    Technical Leader | Cloud, IoT & Emerging Tech
-      </h1>
-
-      <p class="mb-6 text-lg text-gray-600 dark:text-gray-400">
-       Building intelligent systems from prototype to production
-      </p>
-
-
-  <p class="mb-4">
-    Hi, I'm James. I build systems that solve real problems—from IoT infrastructure 
-    that monitors equipment in real-time, to AI pipelines that automate manual operations, 
-    to cloud architectures that scale from prototype to thousands of devices in production.
-  </p>
-
-  <p class="mb-4">
-    I operate where the rubber meets the road, focusing on practical applications that 
-    deliver tangible value. Not technology for its own sake, but intelligent systems 
-    that make businesses successful and the world slightly better.
-  </p>
-
-  <p class="mb-6">
-    Currently available for fractional CTO and technical leadership engagements through 
-    <a href="https://offtraillabs.com" class="text-blue-600 hover:underline font-semibold">Off Trail Labs</a>, 
-    a boutique consultancy helping IoT startups scale on AWS. Previously: 5 years at Amazon/AWS 
-    building solutions for enterprise clients.
-  </p>
-
-
-      <ul class="mb-8 list-none space-y-2">
-        <li class="flex items-start">
-          <span class="mr-3 text-xl">🚀</span>
-          <span>Scaled a clean-tech startup from MVP to <strong>10k+ connected devices</strong></span>
-        </li>
-        <li class="flex items-start">
-          <span class="mr-3 text-xl">⚡</span>
-          <span>Rebuilt AWS architectures—<strong>75% fewer failures</strong>, lower costs</span>
-        </li>
-        <li class="flex items-start">
-          <span class="mr-3 text-xl">🤖</span>
-          <span>Built AI & computer vision pipelines reducing manual operations by <strong>85%</strong></span>
-        </li>
-        <li class="flex items-start">
-          <span class="mr-3 text-xl">💼</span>
-          <span><strong>5 yrs at Amazon & AWS:</strong> Built APIs, rapid prototypes for BMW, Siemens, GE Energy, Roche, launched Honeycode SaaS</span>
-        </li>
-        <li class="flex items-start">
-          <span class="mr-3 text-xl">📈</span>
-          <span>Hired & mentored high-performing teams, set up process & best practices</span>
-        </li>
-      </ul>
-    </section>
-
-    <Hr />
-
-    <Hr />
-
-     <!-- FEATURED WORK -->
-<section id="work" class="pt-12 pb-6">
-  <h2 class="text-2xl font-semibold tracking-wide mb-8">Featured Work</h2>
   
-  <div class="grid gap-8 md:grid-cols-2">
-    <!-- Card 1: Clean-tech Scaling -->
-    <a 
-      href="/work/cleantech-iot-scaling" 
-      class="group block rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <div class="bg-gradient-to-br from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 p-8">
-        <div class="text-4xl mb-2">🚀</div>
-        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-          Scaling Clean-Tech IoT from MVP to 10k+ Devices
-        </h3>
-      </div>
-      <div class="p-6">
-        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          How we went from prototype to production-grade infrastructure supporting 
-          10,000+ connected devices across 3 continents, with 99.9% uptime.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">AWS IoT Core</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Time-series DB</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">DevOps</span>
-        </div>
-        <div class="flex items-center text-sm font-semibold text-blue-600 group-hover:text-blue-700">
-          Read Case Study →
-        </div>
-      </div>
-    </a>
-
-    <!-- Card 2: AWS Architecture -->
-    <a 
-      href="/work/aws-reliability-optimization" 
-      class="group block rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <div class="bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-900/20 dark:to-red-900/20 p-8">
-        <div class="text-4xl mb-2">⚡</div>
-        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-          AWS Architecture Rebuild: 75% Fewer Failures
-        </h3>
-      </div>
-      <div class="p-6">
-        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          Redesigned cloud infrastructure for a B2B SaaS platform, eliminating 
-          recurring outages and reducing AWS costs by 40%.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">AWS</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Terraform</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Microservices</span>
-        </div>
-        <div class="flex items-center text-sm font-semibold text-blue-600 group-hover:text-blue-700">
-          Read Case Study →
-        </div>
-      </div>
-    </a>
-
-    <!-- Card 3: Computer Vision -->
-    <a 
-      href="/work/computer-vision-automation" 
-      class="group block rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <div class="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8">
-        <div class="text-4xl mb-2">🤖</div>
-        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-          Computer Vision Pipeline: 85% Manual Work Eliminated
-        </h3>
-      </div>
-      <div class="p-6">
-        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          Built AI-powered quality control system for manufacturing, processing 
-          1M+ images/month with 98% accuracy.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Python</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">TensorFlow</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Edge AI</span>
-        </div>
-        <div class="flex items-center text-sm font-semibold text-blue-600 group-hover:text-blue-700">
-          Read Case Study →
-        </div>
-      </div>
-    </a>
-
-    <!-- Card 4: Team Building -->
-    <a 
-      href="/work/technical-team-building" 
-      class="group block rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <div class="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 p-8">
-        <div class="text-4xl mb-2">📈</div>
-        <h3 class="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-          Building a High-Performance IoT Engineering Team
-        </h3>
-      </div>
-      <div class="p-6">
-        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
-          Hired and mentored 12-person engineering team, established processes, 
-          and reduced sprint velocity from 2 weeks to 3 days.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Hiring</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Agile</span>
-          <span class="text-xs bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">DevOps</span>
-        </div>
-        <div class="flex items-center text-sm font-semibold text-blue-600 group-hover:text-blue-700">
-          Read Case Study →
-        </div>
-      </div>
-    </a>
-  </div>
-
-  <div class="mt-8 text-center">
-    <a 
-      href="/work" 
-      class="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
-    >
-      View All Projects →
-    </a>
-  </div>
+<!-- HERO SECTION -->
+<section id="hero" class="pt-2 pb-10">
+  <h1 class="my-4 text-2xl font-bold sm:my-8 sm:text-3xl">
+    Fractional CTO for product-driven teams
+  </h1>
+  <p class="mb-6 text-lg">
+    I help founders turn ambiguous ideas into reliable systems —
+    bridging business goals, product strategy, and hands-on execution.
+  </p>
 </section>
 
-<Hr />
-
-<!--    
-    {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured" class="pt-6 pb-6">
-            <h2 class="text-2xl font-semibold tracking-wide">Recent Work</h2>
-            <ul>
-              {featuredPosts.map(data => (
-                <Card variant="h3" {...data} />
-              ))}
-            </ul>
-          </section>
-          {recentPosts.length > 0 && <Hr />}
-        </>
-      )
-    } -->
-
+    
     <!-- RECENT POSTS -->
     {
       recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-6 pb-6">
+        <section id="recent-posts" class="py-10">
           <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
           <ul>
             {recentPosts.map(
@@ -236,67 +47,33 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
                 index < SITE.postPerIndex && <Card variant="h3" {...data} />
             )}
           </ul>
+          <div class="my-8 text-center">
+            <LinkButton href="/posts/">
+              All Posts
+              <IconArrowRight class="inline-block rtl:-rotate-180" />
+            </LinkButton>
+          </div>
         </section>
       )
     }
 
-    <div class="my-8 text-center">
-      <LinkButton href="/posts/">
-        All Posts
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
-      </LinkButton>
-    </div>
+    <Hr />
 
     <Hr />
 
-
- <!-- FOOTER CTA SECTION -->
-    <!-- <section id="contact" class="pt-8 pb-12 text-center">
-      <h2 class="mb-4 text-2xl font-bold">Let's Build Something That Works</h2>
-      <p class="mx-auto mb-6 max-w-xl">
-        Book a free 30-minute call. We'll discuss your product roadmap,
-        technical risks, and whether fractional CTO support makes sense for your stage.
-      </p>
-      
-       <a 
-  href="https://calendly.com/d/ctcp-962-q8c/30-minute-meeting"
-  class="inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
->
-  Schedule a Free Call
-</a>
-    </section> -->
-
- <!-- FOOTER CTA -->
-    <section id="contact" class="py-12 text-center">
-      <h2 class="mb-4 text-2xl font-bold">Let's Build Something together</h2>
-      <p class="mx-auto mb-6 max-w-xl">
-        Need fractional CTO support or technical leadership? Book a free 30-minute call. We'll discuss 
-        your product roadmap, technical risks, and how I can help through 
-        <a href="https://offtraillabs.com" class="text-blue-600 hover:underline">Off Trail Labs</a>.
-      </p>
-      
-      <a 
-        href="https://calendly.com/d/ctcp-962-q8c/30-minute-meeting"
-        class="inline-block rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700"
-      >
-        Schedule a Free Call
-      </a>
-    </section>
-
-     <Hr />
-
-    <section class="py-6 text-center">
+    <!-- FOOTER NOTE SECTION
+    <section id="footer-note" class="py-6 text-center">
       <p class="text-sm text-gray-600 dark:text-gray-400">
         Also open to full-time technical leadership roles—
-        <a href="https://linkedin.com/in/jamesprichardson" class="text-blue-600 hover:underline">
+        <a
+          href="https://linkedin.com/in/jamesprichardson"
+          class="text-blue-600 hover:underline dark:text-blue-400"
+        >
           connect on LinkedIn
         </a>.
       </p>
-    </section>
-
- 
-
- </main>
+    </section> -->
+  </main>
   <Footer />
 </Layout>
 

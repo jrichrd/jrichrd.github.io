@@ -2,7 +2,7 @@
 author: James Richardson
 pubDatetime: 2021-11-14T15:22:00Z
 modDatetime: 2025-10-13T03:01:09Z
-title: re:Invent | a builders guide
+title: AWS re:Invent | a builders guide
 slug: re-invent-a-builders-guide
 featured: false
 draft: false
@@ -13,7 +13,11 @@ description: "A former Solution Architects' guide to getting the most out of you
 
 ---
 
-*A former Solution Architects' guide to getting the most out of your time @ re:Invent*
+**A former AWS Solution Architects' guide to getting the most out of your time @ re:Invent**
+
+[![reinvent](src/assets/images/reinvent-pic-3.jpg)]()
+
+
 
 **AWS re:Invent is a tech conference** like no other since it primarily targets a technical audience—**builder's** in Amazon parlance—which is reflected in the amount of high quality technical content available throughout the week. It also serves as a forcing function for service teams to continually innovate and launch new products at a regular cadence. **As a builder, it's an unparalleled opportunity to immerse yourself in a week of intense learning** from AWS field experts, get inspired by what others are building, and network with likeminded technologists/partners who are also passionate about building cloud enabled solutions.
 
@@ -47,9 +51,9 @@ As a builder who is developing solutions on the platform, I recommend focusing y
 *   **Restaurant Receptions/Quirky Events:** these are new for this year, but I would strongly advise attending a few events, since they are great networking opportunities, a key part of the value of re:Invent.
 *   **Hackathon**: a 'hands-on' developer centric event in which you get to build something cool around a specific use-case. I believe the theme this year is focused around sustainability so this will be a great way to contribute to a worthwhile cause and meet likeminded participants.
 *   **Expo**: this is a huge array of booths staffed by AWS partners who are excited to show you what they are building. It is at the Venetian spread over a few days and it's highly worth going to walk around and connect with partners. There are competitions, giveaways, and lots of swag so you will stock up on T-shirts and Hoodies for the next year. AWS usually has an "ask the experts" booth where you can talk to service team members and SA's who can answer technical questions for specific services such as IoT, ML etc.
-*   **re:Play party**: no explanation necessary 🙂
+*   **re:Play party**: no explanation necessary...
 
-## **Sessions** t**o** (probably) avoid**
+## **Sessions** to skip
 
 *   **Breakouts:** these sessions consist of a lecture style presentation with interesting use-case and technical details, but they are all recorded and uploaded to platforms such as YouTube and can be watched at a later time. The only reason I see to attend a breakout is if you have specific questions for the presenting team that can be answered in the Q&A session and/or after the presentation.
 *   **Keynotes**: this is mainly a sequential announcement of the new services in a presentation style. It is usually difficult to get into the main theatre and I personally don't see any value in attending synchronously in person as this is time that could be spent on one of the higher value session types. If you really like to know which services are being launched in real time, then you can always follow the live Twitter feed or one of the many "influencers" who attend.
@@ -68,6 +72,6 @@ re:Invent can be an overwhelming experience, especially if its you're first time
 
 Last year was Amazon's first attempt at a virtual conference, and as such, the online platform was a bit clunky, and it was difficult to see that you could ask questions to technical experts while attending virtual events. I was moderating several of these sessions and sadly I didn't receive any questions. Therefore, if you are attending virtually, I highly recommend that you leverage the opportunity to ask any questions and to ensure maximum learning from the session.
 
-I hope this was useful, I would love to hear about your re:Invent experience in 2021, feel free to [reach out on Twitter](http://twitter.com/jprichardson_ ) with any questions or thoughts.
+I hope this was useful, I would love to hear about your re:Invent experience in 2021, feel free to [reach out]) with any questions or thoughts.
 
 Have fun!

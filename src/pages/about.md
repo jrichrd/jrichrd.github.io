@@ -26,3 +26,21 @@ that solve real problems and make life slightly better. Whether that's
 scaling a clean-tech startup to 10,000 devices, preventing industrial 
 downtime with predictive maintenance, or automating manual operations 
 with computer vision—I focus on tangible impact.
+
+<!-- HOW I WORK SECTION -->
+<section id="how-i-work" class="pb-10">
+  
+  <h2 class="mb-4 text-xl font-semibold">How I Work</h2>
+  
+  <p class="mb-4">
+    I start with the problem — customer pain, business constraint, operational bottleneck — then work backwards to design the right solution. My toolkit spans <strong>IoT, Cloud, Data, and AI</strong>, but the technology is always in service of the outcome.
+  </p>
+
+  <p class="mb-2 font-semibold text-gray-700 dark:text-gray-300">Core capabilities:</p>
+  <ul class="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+    <li><strong>AI, Data & Cloud Innovation</strong> – concept to production, pilots to scale</li>
+    <li><strong>Program & Portfolio Leadership</strong> – align teams, vendors, and budgets to business goals</li>
+    <li><strong>Architecture & Technical Strategy</strong> – design systems that deliver value and scale sustainably</li>
+    <li><strong>Team Leadership & Mentorship</strong> – build empowered, delivery-focused technical teams</li>
+  </ul>
+</section>

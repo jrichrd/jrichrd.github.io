@@ -71,8 +71,8 @@ html[data-theme="dark"] {
 }
 
 /* Add to your existing styles */
-.hero-metric {
-  color: #0066cc; /* or your brand color */
+/* .hero-metric {
+  color: #0066cc; 
   font-weight: 700;
 }
 
@@ -84,5 +84,5 @@ h2::before {
   background: #0066cc;
   margin-right: 8px;
   vertical-align: middle;
-}
+} */
 

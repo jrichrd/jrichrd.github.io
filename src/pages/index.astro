@@ -23,19 +23,70 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 <Layout>
   <Header />
   <main id="main-content" data-layout="index">
-  
-<!-- HERO SECTION -->
-<section id="hero" class="pt-2 pb-10">
-  <h1 class="my-4 text-2xl font-bold sm:my-8 sm:text-3xl">
-    Fractional CTO for product-driven teams
-  </h1>
-  <p class="mb-6 text-lg">
-    I help founders turn ambiguous ideas into reliable systems —
-    bridging business goals, product strategy, and hands-on execution.
-  </p>
-</section>
+    <section id="hero" class="pt-2 pb-10 border-b border-border">
+      <!-- <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-2xl">
+        Product-First Engineering | IoT, Cloud & Connected Technologies
+      </h1>
 
+      <p class="mb-6 text-base">       
+       I believe technology is a means to an end—not the starting point.
+      </p>
+
+      <p class="mb-6 text-base">
+        I help startups and teams clarify the problem they’re 
+        solving and then design and build solutions that actually deliver results.
+        
+      </p>
+
+       <p class="mb-6 text-base">
+        Here I share what I've learned doing the work.
+      </p> -->
+      
+<h1 class="my-4 text-3xl font-bold sm:my-8 sm:text-4xl dark:text-white">
+  Product-First Engineering
+  <span class="block text-xl font-normal text-gray-500 dark:text-gray-400 sm:text-2xl">
+    IoT, Cloud & Connected Technologies
+  </span>
+</h1>
+
+<p class="mb-4 text-lg font-medium italic dark:text-gray-200">
+  I believe technology is a means to an end—not the starting point.
+</p>
+
+<p class="mb-6 text-base text-gray-700 dark:text-gray-300">
+  I help startups and teams get clear on what they're actually trying to solve, then design and build the systems to deliver—from concept to production.
+</p>
+
+<p class="mb-6 text-base">
+  Here I share what I've learned doing the work.
+</p>
+
+<p class="text-base font-semibold dark:text-white">
+
+Fractional CTO · Founder, Off Trail Labs · Former AWS Solutions Architect & Product Builder
+     </p>
+    </section>
     
+
+    {
+      featuredPosts.length > 0 && (
+        <section
+          id="featured"
+          class:list={[
+            "pt-12 pb-6",
+            { "border-b border-border": recentPosts.length > 0 },
+          ]}
+        >
+          <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <ul>
+            {featuredPosts.map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
     <!-- RECENT POSTS -->
     {
       recentPosts.length > 0 && (
@@ -47,19 +98,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
                 index < SITE.postPerIndex && <Card variant="h3" {...data} />
             )}
           </ul>
-          <div class="my-8 text-center">
-            <LinkButton href="/posts/">
-              All Posts
-              <IconArrowRight class="inline-block rtl:-rotate-180" />
-            </LinkButton>
-          </div>
         </section>
       )
     }
-
-    <Hr />
-
-    <Hr />
 
     <!-- FOOTER NOTE SECTION
     <section id="footer-note" class="py-6 text-center">
@@ -73,6 +114,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </a>.
       </p>
     </section> -->
+    <div class="my-8 text-center">
+      <LinkButton href="/posts/">
+        All Posts
+        <IconArrowRight class="inline-block rtl:-rotate-180" />
+      </LinkButton>
+    </div>
   </main>
   <Footer />
 </Layout>
